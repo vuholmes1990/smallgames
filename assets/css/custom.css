@@ -1,0 +1,475 @@
+
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+	
+.header_top{ display:inline; float:left; width:100%;}
+.header_top_left{ 
+	float:left;
+	display:inline;
+	width:70%;
+	padding-top: 10px
+}
+.top_nav li{ display:inline-block}
+.top_nav li a{ color:#798992; display:inline-block; font-family:"Oswald",sans-serif; font-size:12px; padding:8px 24px 8px 0px; text-transform:uppercase; -webkit-transition:all 0.5; -o-transition:all 0.5; transition:all 0.5}
+.top_nav li a:hover{ color:#FFA500; text-decoration:none; outline:none}
+.header_top .navbar-form {
+	padding: 10px 28px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:30px;
+}
+
+ #wrapper {
+    width: 100%;
+    margin-top:50px;
+}
+
+#page-wrapper {
+    padding: 15px 0;
+    min-height: 600px;
+    background:#F3F3F3;
+}
+
+#page-wrapper-detail {
+    padding: 15px 0;
+    height: 20px;
+    background:transparent;
+}
+
+#page-inner {
+    width:98%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:1050px;
+}
+#page-inner-detail {
+    width:98%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+}
+.pad-top {
+    padding-top:15px;
+}
+
+.navbar-brand {
+	min-height: 40px;
+	height: 50px;
+	width: 50px;
+    margin-left: 20px;
+}
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+.sidebar-collapse .nav {
+	padding:0;
+    padding-top:50px;
+}
+
+.sidebar-collapse > .nav > li > a {
+	padding:15px 0 15px 34px;
+    color: #214761;
+    font-weight: 900;
+    font-size: 14px;
+}
+/*.sidebar-collapse > .nav > li {
+	border-bottom:1px solid #e1e1e1;
+}*/
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	background:#F3F3F3;
+	outline:0;
+}
+
+.navbar-side {
+	border:none;
+	background-color: #fff;
+	
+}
+.navbar-inverse {
+
+background-color: #214761;
+border-color: #F0F0F0;
+min-height: 80px;
+}
+
+.nav > li > a > i {
+    margin-right:10px;
+}
+.logout-spn {
+    float:right;
+    color:#fff;
+    font-size:25px;
+    font-weight:800;
+    margin:20px;
+    margin: 10px 25px 10px 50px;
+}
+    .logout-spn a {
+        text-decoration:none;
+    }
+.active-link {
+    background-color:#f3f3f3;
+}
+    
+/*==============================================
+    FOOTER STYLES     
+    =============================================*/
+.footer {
+    background-color:#214761;
+    width:100%;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+     padding-left:20px;
+}
+
+.footer > a, .footer>a:hover {
+   
+	color:#fff;
+}
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media (min-width: 800px) {
+     #page-wrapper{
+        margin: 0 0 0 226px;
+        padding: 15px 10px;
+        min-height: 1050px;
+		
+    }
+    #page-wrapper-detail {
+        margin: 0 0 0 226px;
+        padding: 15px 10px;
+    }
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 226px;
+    }
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        padding: 0 20px;
+    }
+}
+
+/*==============================================
+    DATA SHOWING   
+    =============================================*/
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.box .row:first-child {
+    margin-top: 0;
+}
+
+.box .row {
+    margin: 15px 0;
+}
+
+.box h5 {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.items-grid .row#items_container .item {
+	margin-left: 20px;
+    width: 180px;
+}
+.items-grid .item {
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+
+.items-grid .item a {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.items-grid .item .thumb-img-container {
+    height: 135px;
+    width: 180px;
+}
+.items-grid .item .thumb {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.items-grid .item .infos {
+    background: #efefef;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 10px;
+}
+.items-grid .item .infos p {
+    margin: 0;
+}
+
+body .ltr {
+    direction: ltr;
+}
+
+.items-grid .item .infos p.title {
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.items-grid .item .infos p.rating {
+    color: #666;
+    display: inline-block;
+    font-size: 11px;
+}
+.items-grid .item .infos p.rating .number {
+    color: #549f02;
+    font-weight: bold;
+}
+
+.items-grid .item .infos p.plays-count {
+    color: #666;
+    display: inline-block;
+    font-size: 11px;
+}
+
+
+body.items.show .wider {
+    display: block;
+    width: auto !important;
+}
+@media (min-width: 800px)
+body.items.show .item-rendering {
+    margin-bottom: 20px;
+}
+@media (min-width: 800px)
+body.items.index .box, body.items.search .box, body.items.tag .box, body.items.newest .box, body.items.best .box, body.items.popular .box, body.categories.show .box, body.categories.category_tag_intersection .box, body.items.tag_intersection .box, body.items.search .box, body.items.house_games .box, body.played_games .box, body.liked_games .box, body.index.tags .box, body.profiles.show .box, body.contacts.new .box, body.contacts.create .box, body.items.new .box, body.static.privacy .box, body.static.terms .box, body.items.show .box, body.pages.not_found .box, body.studios.show .box {
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+.item-show .item-rendering {
+    display: inline-block;
+    text-align: center;
+}
+.box.no-padding {
+    padding: 0;
+}
+.box {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.item-show .box>.content {
+    position: relative;
+}
+.item-show .item-container {
+    background: #333;
+    text-align: center;
+}
+.item-show .content object, .item-show .content iframe, .item-show .content embed {
+    margin: 0 auto;
+}
+.afgv {
+    display: none;
+    z-index: 10;
+}
+.html5-ima-overlay {
+    background-color: #000;
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 10;
+}
+
+.item-show .infos {
+    padding: 20px 20px;
+    text-align: left;
+}
+.item-show .infos h1 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 5px;
+    padding: 0;
+}
+.item-show .infos .screen-size-actions {
+    float: right;
+    margin-top: 1px;
+}
+.item-show .infos .screen-size-actions a {
+    border-right: 1px solid #e3e3e3;
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.item-show .infos .screen-size-actions a svg {
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+.item-show .infos .screen-size-actions a:last-child {
+    border: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+.item-show .infos .sub-infos {
+    color: #999;
+    display: block;
+    font-size: 11px;
+    margin: 0 0 20px;
+}
+.item-show .infos .sub-infos span {
+    margin: 0 10px 0 0;
+}
+.item-show .infos .controls {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background: #f2f2f2;
+    margin: 0;
+}
+.item-show .infos .controls h5 {
+    color: #999;
+    font-size: 10px;
+    margin: 15px 0 10px;
+    text-transform: uppercase;
+}
+.box h5 {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.keys-for-game {
+    margin-bottom: 8px;
+    text-align: left;
+}
+.keys-for-game ul {
+    margin: 0;
+    padding: 0;
+}
+.keys-for-game li {
+    display: block;
+    margin: 0;
+    text-align: left;
+}
+.key-pl1 {
+    background-position: 0 -660px;
+    height: 22px;
+    width: 60px !important;
+}
+.keys-for-game .key-definition.key-definition-pl1, .keys-for-game .key-definition.key-definition-pl2, .keys-for-game .key-definition.key-definition-32, .keys-for-game .key-definition:last-child {
+    border: 0;
+}
+.keys-for-game .key-definition {
+    background: #f2f2f2;
+    border-right: 1px solid #e3e3e3;
+    font-size: 13px;
+    height: 19px;
+    margin: 0 10px 18px 0;
+    padding: 0 15px 0 0;
+    width: auto;
+}
+[class*='key-'] {
+    background: url(/assets/icons/keyboard/key.png) no-repeat top left;
+    height: 22px;
+    position: relative;
+    top: -2px;
+    width: 22px;
+}
+.keyboard-key {
+    margin: 0 1px;
+    vertical-align: middle;
+}
+.keys-for-game .key-definition, .keyboard-key {
+    display: inline-block;
+    zoom: 1;
+}
+.key-wasd {
+    background-position: 0 -773px;
+    height: 24px;
+    width: 35px;
+}
+.key-f {
+    background-position: 0 -506px;
+}
+.key-g {
+    background-position: 0 -528px;
+}
+.key-h {
+    background-position: 0 -550px;
+}
+.keys-for-game .key-definition.key-definition-pl1, .keys-for-game .key-definition.key-definition-pl2, .keys-for-game .key-definition.key-definition-32, .keys-for-game .key-definition:last-child {
+    border: 0;
+}
+.key-pl2 {
+    background-position: 0 -682px;
+    height: 22px;
+    width: 60px;
+}
+.key-arrow {
+    background-position: 0 -749px;
+    height: 24px;
+    width: 35px;
+}
+
+.item-show .right {
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    width: 320px;
+}
+
+.item-show .right .ads {
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.box {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+body.items.index .box, body.items.search .box, body.items.tag .box, body.items.newest .box, body.items.best .box, body.items.popular .box, body.categories.show .box, body.categories.category_tag_intersection .box, body.items.tag_intersection .box, body.items.search .box, body.items.house_games .box, body.played_games .box, body.liked_games .box, body.index.tags .box, body.profiles.show .box, body.contacts.new .box, body.contacts.create .box, body.items.new .box, body.static.privacy .box, body.static.terms .box, body.items.show .box, body.pages.not_found .box, body.studios.show .box {
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
